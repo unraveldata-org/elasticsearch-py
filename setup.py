@@ -23,19 +23,16 @@ tests_require = [
     'nosexcover'
 ]
 
-# use external unittest for 2.6
-if sys.version_info[:2] == (2, 6):
-    install_requires.append('unittest2')
 
 setup(
-    name = 'elasticsearch',
+    name = 'elasticsearch-unravel',
     description = "Python client for Elasticsearch",
     license="Apache License, Version 2.0",
     url = "https://github.com/elastic/elasticsearch-py",
     long_description = long_description,
     version = __versionstr__,
-    author = "Honza Král, Nick Lang",
-    author_email = "honza.kral@gmail.com, nick@nicklang.com",
+    author = "venkatesh",
+    author_email = "pvenkatesh@unraveldata.com",
     packages=find_packages(
         where='.',
         exclude=('test_elasticsearch*', )
@@ -46,15 +43,12 @@ setup(
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.6",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.2",
-        "Programming Language :: Python :: 3.3",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
