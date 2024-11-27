@@ -28,7 +28,7 @@ setup(
     name = 'elasticsearch-unravel',
     description = "Python client for Elasticsearch",
     license="Apache License, Version 2.0",
-    url = "https://github.com/elastic/elasticsearch-py",
+    url = "https://github.com/unraveldata-org/elasticsearch-py",
     long_description = long_description,
     version = __versionstr__,
     author = "venkatesh",
