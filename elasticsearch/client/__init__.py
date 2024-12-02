@@ -575,7 +575,7 @@ class Elasticsearch(object):
             computation as part of a hit
         :arg fielddata_fields: A comma-separated list of fields to return as the
             docvalue representation of a field for each hit
-        :arg from\_: Starting offset (default: 0)
+        :arg from_: Starting offset (default: 0)
         :arg ignore_unavailable: Whether specified concrete indices should be
             ignored when unavailable (missing or closed)
         :arg lenient: Specify whether format-based query failures (such as
@@ -678,7 +678,7 @@ class Elasticsearch(object):
             computation as part of a hit
         :arg fielddata_fields: A comma-separated list of fields to return as the
             docvalue representation of a field for each hit
-        :arg from\_: Starting offset (default: 0)
+        :arg from_: Starting offset (default: 0)
         :arg ignore_unavailable: Whether specified concrete indices should be
             ignored when unavailable (missing or closed)
         :arg lenient: Specify whether format-based query failures (such as
@@ -834,7 +834,7 @@ class Elasticsearch(object):
             choices are: 'open', 'closed', 'none', 'all'
         :arg explain: Specify whether to return detailed information about score
             computation as part of a hit
-        :arg from\_: Starting offset (default: 0)
+        :arg from_: Starting offset (default: 0)
         :arg ignore_unavailable: Whether specified concrete indices should be
             ignored when unavailable (missing or closed)
         :arg lenient: Specify whether format-based query failures (such as
